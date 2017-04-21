@@ -1,0 +1,157 @@
+/* All CSS for Brianglow.com, incase something goes wrong*/
+
+.nav-bar-below{
+margin: auto;
+background: -webkit-linear-gradient(top bottom, #241860, #9259bc); 
+  background: -o-linear-gradient(top bottom, #241860, #9259bc);
+  background: -moz-linear-gradient(top bottom, #241860, #9259bc);
+  background: linear-gradient(to bottom, #241860, #9259bc);
+}
+
+.footer{
+height: 60px;
+background: -webkit-linear-gradient(top bottom, #9259bc, #241860); 
+  background: -o-linear-gradient(top bottom, #9259bc, #241860);
+  background: -moz-linear-gradient(top bottom, #9259bc, #241860);
+  background: linear-gradient(to bottom, #9259bc, #241860);
+}
+
+.footer p{
+color: #FFF;
+padding: 5px;
+text-shadow: 1px 1px #000;
+}
+
+.footer-navigation ul li a{
+color: #FFF;
+padding: 5px;
+text-shadow: 1px 1px #000;
+}
+
+#nav-footer li a:hover{
+color: #1F1844;
+}
+
+.contact-us-button{
+margin-top: -50px;
+}
+
+/* Company logo slider CSS */
+.company-logos
+{
+margin-left:-400px;
+}
+
+.toggle-panel-toggle-text{
+color: #783BA4;
+
+}
+
+.op-text-block a{
+color: #783BA4;
+}
+
+#navigation-below{
+margin: auto;
+padding: 0px 0px 0px 110px;
+}
+
+.navigation ul ul li{
+background-color: #252525;
+width: 282px;
+float: left;
+}
+
+.site-link-white a{
+color: #783BA4;
+}
+
+.site-link-black a{
+color: #783BA4;
+}
+
+.site-link-white a:hover{
+color: #B382D6;
+text-shadow: 1px 1px #FFF;
+}
+
+.site-link-black a:hover{
+color: #B382D6;
+text-shadow: 1px 1px #000;
+}
+
+@media only screen 
+and (max-device-width: 600px)
+ {
+.footer-copyright{
+margin-left: 0px;
+}
+.site-link-white h2 a{
+text-align: center;
+}
+}
+
+@media only screen 
+and (max-device-width: 1000px)
+{
+.footer-copyright{
+margin-left: 0px;
+}
+.site-link-white h2 a{
+text-align: center;
+}
+}
+
+/***************************/
+/* Stuff for new banner */
+/**************************/
+
+.no-logo{
+height: 0px;
+padding: 0px;
+}
+
+/*.banner{
+height: 0px
+padding: 0px;
+}*/
+
+.nav-bar-above{
+margin: auto;
+background: -webkit-linear-gradient(top bottom, #241860, #9259bc); 
+  background: -o-linear-gradient(top bottom, #241860, #9259bc);
+  background: -moz-linear-gradient(top bottom, #241860, #9259bc);
+  background: linear-gradient(to bottom, #241860, #9259bc);
+}
+
+#navigation-above{
+margin: auto;
+padding: 0px 0px 0px 110px;
+}
+
+#navigation-above li a:hover{
+background-color: #1F1844;
+}
+
+#navigation-above .sub-menu li a:hover
+{
+background-color: #1b1b1b;
+}
+
+.blog .banner,
+.archive .banner,
+.single-post .banner
+{
+	background-color:none !important;
+}
+
+/* Important - background image cover to ensure background scrolls with the page */
+body
+{
+  background: url('http://corporateevententertainmentmagician.com/wp-content/uploads/2015/03/debut_dark_@2X.png') ; 
+
+}
+
+#le_body_row_1{
+padding-top: 0px;
+}

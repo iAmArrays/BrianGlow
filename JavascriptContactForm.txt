@@ -1,0 +1,85 @@
+function chooseFunnel(event)
+{
+  var action = "";
+  var eventType = "";
+  if (event == 'banquet')
+  {
+    action = "https://www.mcssl.com/WebForms/Processor.ashx?wid=c6158393-3e0b-4641-b198-37ac7933d5bf";
+    eventType = "banquet";
+  }
+  else if(event == 'salesmeeting')
+  {
+    action = "https://www.mcssl.com/WebForms/Processor.ashx?wid=20c88e1c-a195-4275-9f67-1d86a241aacd";
+    eventType = "sales meeting";
+  }
+  else if(event == 'tradeshow')
+  {
+    action = "https://www.mcssl.com/WebForms/Processor.ashx?wid=7567b5a0-cce7-45e0-a249-78d66439ec36";
+    eventType = "trade show";
+  }
+  else if(event == 'corporateholidayparty')
+  {
+    action = "https://www.mcssl.com/WebForms/Processor.ashx?wid=19252716-bb5b-40fe-bc00-da0eb13bb378";
+    eventType = "holiday party";
+  }
+  else if(event == 'conference')
+  {
+    action = "https://www.mcssl.com/WebForms/Processor.ashx?wid=a4d9f828-c2a1-4557-9d39-2d27d01162d5";
+    eventType = "conference";
+  }
+  else if(event == 'convention')
+  {
+    action = "https://www.mcssl.com/WebForms/Processor.ashx?wid=a4d9f828-c2a1-4557-9d39-2d27d01162d5";
+    eventType = "convention";
+  }
+  else if(event == 'teambuilding')
+  {
+    action = "https://www.mcssl.com/WebForms/Processor.ashx?wid=587a1acf-c394-4909-b5b3-87928e46141c";
+    eventType = "team building";
+  }
+  else if(event == 'companypicnic')
+  {
+    action = "https://www.mcssl.com/WebForms/Processor.ashx?wid=f848c626-5825-40f0-be44-81afd4d4b868";
+    eventType = "company picnic";
+  }
+  else if(event == 'productlaunchentertainment')
+  {
+    action = "https://www.mcssl.com/WebForms/Processor.ashx?wid=d999b7ef-cbd6-46d3-aaa3-c79ec12f706a";
+    eventType = "product launch";
+  }
+  else if(event == 'keynotespeech')
+  {
+    action = "https://www.mcssl.com/WebForms/Processor.ashx?wid=551e9576-1469-438b-9a9d-d0988518bc6d";
+    eventType = "keynote";
+  }
+  else if(event == 'workshop')
+  {
+    action = "https://www.mcssl.com/WebForms/Processor.ashx?wid=71ffb885-d081-4de4-81fd-6d9fb81b1bd5";
+    eventType = "workshop";
+  }
+  else if(event == 'seminar')
+  {
+    action = "https://www.mcssl.com/WebForms/Processor.ashx?wid=71ffb885-d081-4de4-81fd-6d9fb81b1bd5";
+    eventType = "seminar";
+  }
+  else if(event == 'masterofceremonies')
+  {
+    action = "https://www.mcssl.com/WebForms/Processor.ashx?wid=158762ca-8133-4736-aaa6-48431a2de484";
+    eventType = "ceremony";
+  }
+  else if(event == 'association')
+  {
+    action = "https://www.mcssl.com/WebForms/Processor.ashx?wid=9cb653fc-9514-4e1d-832f-66a1b72ed6e9";
+    eventType = "association meeting";
+  }
+  document.getElementById("eventType").value = eventType;
+  document.getElementById('signupForm').action = action;
+}
+
+
+function changeFunc() {
+    var selectBox = document.getElementById("selectBox");
+    var event = selectBox.options[selectBox.selectedIndex].value;
+    chooseFunnel(event);
+}
+

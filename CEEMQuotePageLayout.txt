@@ -1,0 +1,26 @@
+Brian originally had 12 different types of events, and 3 categories of quote pages, the three categories are parties, trade show, meetings. The events are listed below under each category.
+
+
+Packages 
+
+Parties
+
+Holiday 
+picnic
+awards 
+banquets
+
+
+Trade show
+
+
+Meetings
+
+Sales meetings
+Team Buildings
+p lauch
+AGM
+C&C
+keynote
+Seminars and workshops
+Master of Ceremonies
